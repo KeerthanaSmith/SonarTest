@@ -30,6 +30,6 @@ BEGIN
 	SET NOCOUNT ON;
 
     -- Insert statements for procedure here
-	top 20 * FROM [AdventureWorks2017].[HumanResources].[Employee]
+	SELECT top 20 * FROM [AdventureWorks2017].[HumanResources].[Employee]
 END
 GO
